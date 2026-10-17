@@ -1,0 +1,24 @@
+{
+  "java_runtime": "OpenJDK 17.0.20",
+  "os": "Linux",
+  "test_cases": 6,
+  "checks": 38,
+  "compiler_flags": [
+    "--release",
+    "17",
+    "-encoding",
+    "UTF-8",
+    "-Xlint:all",
+    "-Werror"
+  ],
+  "both_demo_outputs": "pass",
+  "jar_main_entry": "pass",
+  "jar_alternate_entry": "pass",
+  "run_and_test_from_outside_project": "pass",
+  "project_path_spaces_unicode_ampersand": "pass",
+  "java_home_with_spaces": "pass",
+  "eclipse_xml": "well-formed; UI import not executed",
+  "shell_syntax": "pass",
+  "windows_cmd": "reviewed and CRLF-encoded; native execution not available",
+  "github_actions": "workflow prepared and structurally checked; hosted execution not performed"
+}

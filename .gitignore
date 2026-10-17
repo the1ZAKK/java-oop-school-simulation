@@ -1,0 +1,12 @@
+/build/
+/bin/
+*.class
+*.jar
+# Generated for the separately distributed reconstruction ZIP.
+/CHECKSUMS.sha256
+/.metadata/
+/.idea/
+/.vscode/
+*.iml
+.DS_Store
+Thumbs.db
